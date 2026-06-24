@@ -1,1 +1,13 @@
+a{
+  color: blue;
+}
+a:hover{
+  color: red;
+}
+a:visited{
+  color:purple;
+}
+a:focus{
+  border: 12px solid greem;
+}
 
