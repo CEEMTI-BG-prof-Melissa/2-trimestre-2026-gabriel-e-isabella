@@ -8,6 +8,29 @@ a:visited{
   color:purple;
 }
 a:focus{
-  border: 12px solid greem;
+  border: 6px solid green;
 }
-
+li:first-child{
+    font-weight: bolder;
+}
+li:last-child{
+    color: purple;
+}
+li:nth-child(odd){
+    background-color: pink;
+}
+li:nth-child(even){
+    background-color: lightblue;
+}
+input:required{
+    border: 6px solid green ;
+}
+input:focus{
+    box-shadow: 3px 9px purple;
+}
+input[type="email"]:valid{
+    border-color: lightgreen;
+}
+input[type="email"]:invalid{
+    border-color: red;
+}
