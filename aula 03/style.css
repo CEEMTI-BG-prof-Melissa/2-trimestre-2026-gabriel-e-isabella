@@ -1,1 +1,27 @@
+h1::before{
+    content:"✨";
+}
+p::after{
+    content:"⚡";
+}
+.bio::first-letter{
+    font-size: 25px;
+    color: purple;
+}
+p::first-line{
+    font-weight: bold;
+    font-style: italic;
+}
+body::selection{
+    background-color: #C8A2C8 ;
+    color: white;
+}
+input::placeholder{
+    font-style: italic;
+    color: lightgray;
+}
+li::marker{
+    color: pink;
+    font-size: 25px;
+}
 
